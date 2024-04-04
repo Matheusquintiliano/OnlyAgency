@@ -1,0 +1,48 @@
+.descrisao {
+    background-color: #060606;
+    border-bottom: 1px solid white;
+    padding: 3em;
+}
+
+.descrisao_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15vh 0;
+}
+
+.descrisao_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.descrisao_texto {
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.descrisao_titulo {
+    font-family: var(--fonte-principal);
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 1em 0 0;
+}
+
+.btn_ver_mais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 1.3em;
+    font-weight: 300;
+}

@@ -1,0 +1,16 @@
+.instrucao_container{
+    font-family: var(--fonte-principal);
+    color: white;
+    text-align: center;
+    padding: 30vh 20% 30vh;
+}
+
+.instrucao_titulo{
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.instrucao_texto{
+    font-size: 2em;
+}

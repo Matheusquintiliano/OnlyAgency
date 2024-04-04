@@ -1,0 +1,19 @@
+.rodape {
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape_item,
+.rodape_text{
+    padding-top: 1em;
+    color: white;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+}
+
+.rodape_text{
+    padding: 3em 0 1em 0;
+    opacity: 60%;
+}
